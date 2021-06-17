@@ -1,0 +1,74 @@
+
+/* A todo el body */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,200&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+/* A todo el header */
+header{
+    line-height: 1.7;
+    text-align: center;
+    background-color: #E6E6E6;
+}
+
+/* A todo el main */
+main{
+    max-width: 950px;
+    margin: 100px auto;
+}
+
+h1,h3{
+    color:#005677 ;
+    background-color: #C4C4C4;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+
+h3{
+    font-size: 20px;
+    letter-spacing: 5px;
+    line-height: 1.5;
+}
+
+ul .lista{
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul{
+    line-height: 1.5;
+}
+
+dt .lista{
+    font-weight: bold;
+}
+
+dd{ 
+    margin-left: 79px;
+}
+
+/* A todo el footer */
+footer{
+    text-align: center;
+    background-color: #005677;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+footer a img{
+    margin-left: 20px;
+    vertical-align:text-bottom;
+}
+
