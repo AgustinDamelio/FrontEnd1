@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    position: relative;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* bar-discount */
+.bar-discount h2{
+    background-color:#1CD1B0;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+
+header h1{
+    background-color:#00669F;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 28px;
+
+}
+
+main{
+    margin: 152px auto;
+    text-align: center;
+}
+
+.batman1, 
+.harley-quinn, 
+.batman2{
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 152px;
+    margin-left: 30px;
+    position: relative;
+    background-color: #F3F3F3;
+}
+
+main h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin: -50px auto 10px;
+}
+
+.perfil-batman,
+.perfil-harley{
+    position: relative;
+    top: -65px;
+    border-radius: 50%;
+}
+
+p{
+    padding-left: 16px;
+    font-size: 16px;
+    padding-right: 17px;
+    margin-bottom: 37px;
+    text-align: left;
+}
+
+h3{
+    font-size: 15px;
+    padding: 20px 10px;
+    background-color: #00669F;
+    margin: 19px 85px;
+    color:#F3F3F3;
+    font-weight: 400;
+}
+
+footer h3{
+    font-size: 16px;
+    padding: 16px;
+    margin: 0;
+    text-align: left;
+    font-weight: 400;
+}
