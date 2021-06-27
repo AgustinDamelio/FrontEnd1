@@ -20,12 +20,14 @@ body{
 }
 
 
-header h1{
+h1{
     background-color:#00669F;
     font-weight: 400;
     font-size: 40px;
     padding: 28px;
-
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 main{
@@ -55,6 +57,14 @@ main h2{
     position: relative;
     top: -65px;
     border-radius: 50%;
+}
+
+i{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 25px;
+    color:#CC2424;
 }
 
 p{
