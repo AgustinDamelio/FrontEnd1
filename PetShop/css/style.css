@@ -18,14 +18,15 @@ body{
     font-weight: 400;
     font-size: 10px;
     padding-top: 2px;
-    padding-left: 30px;
+    padding-left: 90px;
+    padding-right: 52px;
     display: flex;
-
+    justify-content: space-between;
 }
 
 #barra-superior ul{
     display:flex;
-    justify-content: flex-end;
+    gap: 10px;
 }
 
 /* barra menu principal */
@@ -34,11 +35,16 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 62px;
 }
 
 nav ul {
     padding:15px;
     margin: 0;
+    display: flex;
+
 }
 
 nav ul li{
@@ -46,7 +52,6 @@ nav ul li{
     padding-left: 10px;
     color: white;
     font-size: 13px;
-
 }
 
 /* main */
@@ -54,7 +59,18 @@ nav ul li{
 #banner{
     background-image: url('../img/Banner.png');
     height: 409px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#banner section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
 }
 
 #banner h2{
@@ -64,6 +80,7 @@ nav ul li{
     background-color: white;
     width: fit-content;
     padding: 10px;
+    border-radius: 5px;
 }
 
 #banner h5{
@@ -81,9 +98,18 @@ nav ul li{
     width: fit-content;
     padding: 15px 23px;
     margin: 10px;
+    border-radius: 5px;
 }
 
 /* productos destacados */
+#productos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 #productos .huella{
     height: 71px;
     margin-top: 30px;
@@ -112,11 +138,13 @@ h1{
     font-weight: 500;
 }
 
-#productos nav dd{
-    color: #F0A83E;
+.producto1, .producto2, .producto3{
     font-weight: 500;
     font-size: 15px;
+    background-color: #FBFAF6;
 }
+
+.producto1 span:
 
 /* footer */
 footer .iconos-sociales{
