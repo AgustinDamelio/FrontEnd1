@@ -1,9 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
 * {
-    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
+    box-shadow: 0.1rem 0.1rem 5px 0rem rgb(65, 65, 65);
+}
+
+main {
+    font-family: 'Karla', sans-serif;
+    height: 300px
+}
+
+div {
+    margin: 0px 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+form input {
+    width: 350px;
+    margin-top: 10px;
+}
+
+form input:nth-child(4) {
+    margin-top: 20px;
+
+}
+
+form input:nth-child(4):hover {
+    background-color: black;
+    color: white;
+}
+
+p {
+    color: #333333;
+    font-size: 4.5rem;
     font-weight: 700;
 }
